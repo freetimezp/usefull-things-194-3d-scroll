@@ -1,1 +1,5 @@
 https://sketchfab.com/3d-models/32oz-water-flask-8a5c0fd0d4bc45128f3ee5c65a32e54f
+
+https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.module.js
+
+https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js
