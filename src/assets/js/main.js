@@ -126,7 +126,12 @@ document.addEventListener("DOMContentLoaded", () => {
         camera.lookAt(0, 0, 0);
     }
 
-    new GLTFLoader().load("/src/assets/models/shaker.glb", (gltf) => {
+    const base =
+        (import.meta.env && import.meta.env.BASE_URL) !== undefined
+            ? import.meta.env.BASE_URL
+            : "/usefull-things-194-3d-scroll/";
+
+    new GLTFLoader().load(`${base}src/assets/models/shaker.glb`, (gltf) => {
         model = gltf.scene;
 
         model.traverse((node) => {
